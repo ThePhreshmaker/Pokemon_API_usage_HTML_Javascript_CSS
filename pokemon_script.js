@@ -49,8 +49,8 @@ const displayPokemon = (pokemon) => {
 }
 /* This function will be used to toggle Ordered List "pokedex" */
 function toggleButton () {
-  let toggle = document.getElementById('pokedex')
-  if (toggle.style.display == 'none') {
+  const toggle = document.getElementById('pokedex')
+  if (toggle.style.display === 'none') {
     toggle.style.display = 'grid'
   } else {
     toggle.style.display = 'none'
