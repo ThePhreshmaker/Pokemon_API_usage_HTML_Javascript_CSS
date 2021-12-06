@@ -1,5 +1,5 @@
-/* Author: Shawn Philipps 
-Style sheet to style HTML elements for Shawn's Pokedex Website 
+/* Author: Shawn Philipps
+Style sheet to style HTML elements for Shawn's Pokedex Website
 Styles the background and general font used (Rubik from Google Fonts API) */
 body {
   background-color: red;
@@ -15,24 +15,25 @@ h1 {
   font-family: Pokemon;
   -webkit-text-stroke: 4px #3c5aa6;
   margin-top: -30px;
-  margin-bottom: -30px;  
+  margin-bottom: -30px;
+
 }
 
 /* subheading will apply style to text directly below h1 */
 .subheading {
   margin-top: -15px;
-  margin-bottom: -30px;  
-  text-align: center;  
-  font-size: 50px;  
-  color: #ffcb05;    
+  margin-bottom: -30px;
+  text-align: center;
+  font-size: 50px;
+  color: #ffcb05;
 }
 
 /* h3 is directly below .subheading */
 h3 {
   text-align: center;
-  font-size: 30px;  
+  font-size: 30px;
   color: #ffcb05;
-  margin-bottom: -25px;  
+  margin-bottom: -25px;
 }
 
 /* h4 is directly below h3 */
@@ -70,12 +71,12 @@ h5 {
 
 /* This will change the text color for .card-number element */
 .card:hover .card-number {
-  color:#000000;
+  color: #000;
 }
 
 /* This will change the text color for .card-title element */
 .card:hover .card-name {
-  color:#000000;
+  color: #000;
 }
 
 /* This will control the bounce animation height for each bounce */
@@ -104,7 +105,7 @@ h5 {
 
 /* This will style the pokemon name */
 .card-name {
-text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 32px;
   font-weight: normal;
   margin-bottom: -10px;
@@ -114,21 +115,21 @@ text-transform: uppercase;
 /* This will style the pokemon types */
 .card-types {
   text-transform: capitalize;
-  font-weight:lighter;
+  font-weight: lighter;
   color: #666;
   margin-bottom: -10px;
 }
 
 /* This will style the pokemon weight element */
 .card-weight {
-  font-weight:lighter;
+  font-weight: lighter;
   color: #666;
   margin-bottom: -10px;
 }
 
 /* This will style the pokemon height element */
 .card-height {
-  font-weight:lighter;
+  font-weight: lighter;
   color: #666;
   margin-bottom: -10px;
 }
@@ -136,7 +137,7 @@ text-transform: uppercase;
 /* This will style the pokemon abilities element */
 .card-abilities {
   text-transform: capitalize;
-  font-weight:lighter;
+  font-weight: lighter;
   color: #666;
   margin-bottom: 20px;
 }
