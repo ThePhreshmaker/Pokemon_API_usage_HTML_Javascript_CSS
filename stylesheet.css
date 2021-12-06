@@ -1,46 +1,44 @@
-/*Author: Shawn Philipps*/
-/*Style sheet to style HTML elements for Shawn's Pokedex Website*/
-/*Styles the background and general font used (Rubik from Google Fonts API)*/
+/* Author: Shawn Philipps */
+/* Style sheet to style HTML elements for Shawn's Pokedex Website */
+/* Styles the background and general font used (Rubik from Google Fonts API) */
 body{
     background-color: red;
-    margin: 0px;
     font-family: rubik;
 }
-/*Title Heading for webpage. Pokemon yellow color, with Blue outline. Pokemon font from API specified in HTML doc*/
+/* Title Heading for webpage. Pokemon yellow color, with Blue outline. Pokemon font from API specified in HTML doc */
 h1{
     text-align: center;
     font-size: 125px;
     font-style: normal;
     color: #ffcb05;
-    font-family:"Pokemon";
+    font-family: Pokemon;
     -webkit-text-stroke: 4px #3c5aa6;
     margin-top: -30px;
     margin-bottom: -30px;
 }
-/*subheading will apply style to text directly below h1*/
+/* subheading will apply style to text directly below h1 */
 .subheading{
     margin-top: -15px;
     margin-bottom: -30px;
     text-align: center;
     font-size: 50px;
     color: #ffcb05;
-
 }
-/*h3 is directly below .subheading*/
+/* h3 is directly below .subheading */
 h3{
     text-align: center;
     font-size: 30px;
     color: #ffcb05;
     margin-bottom: -25px;
 }
-/*h4 is directly below h3*/
+/* h4 is directly below h3 */
 h4{
     text-align: center;
     font-size: 25px;
     color: #ffcb05;
     margin-bottom: -30px;
 }
-/*h5 is directly below h4*/
+/* h5 is directly below h4 */
 h5{
     text-align: center;
     font-size: 25px;
@@ -48,7 +46,7 @@ h5{
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
-/*.card will contain the image, id, name, height/weight, type, and ability elements for each pokemon*/
+/* .card will contain the image, id, name, height/weight, type, and ability elements for each pokemon */
 .card{
     list-style: none;
     padding: 20px;
@@ -57,20 +55,20 @@ h5{
     text-align: center;
     border-radius: 25px;
 }
-/*.card:hover will allow card to change on mouse hover. Bounce animation will add some flair and background will change the background color of the card*/
+/* .card:hover will allow card to change on mouse hover. Bounce animation will add some flair and background will change the background color of the card */
 .card:hover{
     animation: bounce 0.5s linear;
     background: #f4f4f4;
 }
-/*This will change the text color for .card-number element*/
+/* This will change the text color for .card-number element */
 .card:hover .card-number{
     color:#000000;
 }
-/*This will change the text color for .card-title element*/
+/* This will change the text color for .card-title element */
 .card:hover .card-name{
     color:#000000;
 }
-/*This will control the bounce animation height for each bounce*/
+/* This will control the bounce animation height for each bounce */
 @keyframes bounce {
     20%{
         transform: translateY(-20px);
@@ -85,14 +83,14 @@ h5{
         transform: translateY(0px)
     }
 }
-/*This will style the pokemon id number*/
+/* This will style the pokemon id number */
 .card-number{
     font-size: 32px;
     font-weight: normal;
     margin-bottom: -10px;
     color: #f4f4f4;
 }
-/*This will style the pokemon name*/
+/* This will style the pokemon name */
 .card-name{
     text-transform: uppercase;
     font-size: 32px;
@@ -100,40 +98,39 @@ h5{
     margin-bottom: -10px;
     color: #f4f4f4;
 }
-/*This will style the pokemon types*/
+/* This will style the pokemon types */
 .card-types{
     text-transform: capitalize;
     font-weight:lighter;
     color: #666;
     margin-bottom: -10px;
 }
-/*This will style the pokemon weight element*/
+/* This will style the pokemon weight element */
 .card-weight{
     font-weight:lighter;
     color: #666;
     margin-bottom: -10px;
 }
-/*This will style the pokemon height element*/
+/* This will style the pokemon height element */
 .card-height{
     font-weight:lighter;
     color: #666;
     margin-bottom: -10px;
 }
-/*This will style the pokemon abilities element*/
+/* This will style the pokemon abilities element */
 .card-abilities{
     text-transform: capitalize;
     font-weight:lighter;
     color: #666;
     margin-bottom: 20px;
 }
-/*This will style the image sprites element*/
+/* This will style the image sprites element */
 .card-image{
     height: 200px;
     width: 200px;
     margin-bottom: -40px;
-
 }
-/*Styles the pokedex ordered list into a CSS grid, which will represent the "cards" on the website*/
+/* Styles the pokedex ordered list into a CSS grid, which will represent the "cards" on the website */
 #pokedex{
     padding-inline-start: 20px;
     padding-inline-end: 20px;
@@ -141,4 +138,3 @@ h5{
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 30px;
 }
-
