@@ -21,6 +21,13 @@ stylesheet.css
 
 pokemon_script.js
 
+# Verification Information
+
+![image](https://user-images.githubusercontent.com/89462917/144878620-181dcac5-8740-496b-9fda-166c64c6deae.png)
+
+![image](https://user-images.githubusercontent.com/89462917/144878684-73a18400-cd30-4af5-ab0a-27f079b6827d.png)
+
+
 # Other Information
 
 Author: Shawn Philipps
