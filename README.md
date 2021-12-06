@@ -14,12 +14,19 @@ This repository will automatically deploy upon a push to the respository, which 
 WARNING: Super-Linter is very specific on formatting and will give a large variety of errors if formatting is not clean. Recommended to push small changes at a time to the repository and check results of Super-Linter under GitHub Actions tab.
 
 # Repository Contents
+
 Pokedex.html
+
 stylesheet.css
+
 pokemon_script.js
 
 # Other Information
+
 Author: Shawn Philipps
+
 School: Brooklyn College
+
 Course: CISC 3140 
+
 Semester: Fall 2021
