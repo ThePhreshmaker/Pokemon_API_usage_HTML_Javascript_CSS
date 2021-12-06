@@ -48,12 +48,13 @@ const displayPokemon = (pokemon) => {
   pokedex.innerHTML = pokemonHTMLString
 }
 /* This function will be used to toggle Ordered List "pokedex" */
-function toggleButton() {
-  var toggle = document.getElementById("pokedex");
-  if (toggle.style.display == "none") {
-    toggle.style.display = "grid";
+function toggleButton () {
+  let toggle = document.getElementById('pokedex')
+  if (toggle.style.display == 'none') {
+    toggle.style.display = 'grid'
   } else {
-    toggle.style.display = "none";
+    toggle.style.display = 'none'
   }
 }
 fetchPokemon()
+toggleButton()
