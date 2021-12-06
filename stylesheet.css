@@ -3,7 +3,7 @@ Style sheet to style HTML elements for Shawn's Pokedex Website
 Styles the background and general font used (Rubik from Google Fonts API) */
 body {
   background-color: red;
-  font-family: rubik;
+  font-family: rubik, sans-serif;
 }
 
 /* Title Heading for webpage. Pokemon yellow color, with Blue outline. Pokemon font from API specified in HTML doc */
@@ -12,7 +12,7 @@ h1 {
   font-size: 125px;
   font-style: normal;
   color: #ffcb05;
-  font-family: Pokemon;
+  font-family: Pokemon, sans-serif;
   -webkit-text-stroke: 4px #3c5aa6;
   margin-top: -30px;
   margin-bottom: -30px;
@@ -73,7 +73,7 @@ h5 {
   20% {
     transform: translateY(-20px);
   }
-
+  
   40% {
     transform: translateY(1px);
   }
