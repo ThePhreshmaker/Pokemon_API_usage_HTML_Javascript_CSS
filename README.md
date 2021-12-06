@@ -30,7 +30,7 @@ The contents of this repository have been validated!
 
 # Helpful links
 
-Javascript Promises: https://www.youtube.com/watch?v=DHvZLI7Db8E&t=318s
+JavaScript Promises: https://www.youtube.com/watch?v=DHvZLI7Db8E&t=318s
 
 CSS tutorials: https://www.w3schools.com/css/
 
