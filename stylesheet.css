@@ -16,7 +16,6 @@ h1 {
   -webkit-text-stroke: 4px #3c5aa6;
   margin-top: -30px;
   margin-bottom: -30px;
-
 }
 
 /* subheading will apply style to text directly below h1 */
@@ -71,27 +70,30 @@ h5 {
 
 /* This will control the bounce animation height for each bounce */
 @keyframes bounce {
-    20% {
-      transform: translateY(-20px);
-    }
-    40% {
-      transform: translateY(1px);
-    }
-    60% {
-      transform: translateY(-10px);
-    }
-    80% {
-      transform: translateY(1px);
-    }
+  20% {
+    transform: translateY(-20px);
   }
+
+  40% {
+    transform: translateY(1px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(1px);
+  }
+}
 
 /* This will style the pokemon id number */
 .card-number {
-    font-size: 32px;
-    font-weight: normal;
-    margin-bottom: -10px;
-    color: #f4f4f4;
-  }
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: -10px;
+  color: #f4f4f4;
+}
 
 /* This will change the text color for .card-number element */
 .card:hover .card-number {
@@ -100,12 +102,12 @@ h5 {
 
 /* This will style the pokemon name */
 .card-name {
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: normal;
-    margin-bottom: -10px;
-    color: #f4f4f4;
-  }
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: -10px;
+  color: #f4f4f4;
+}
 
 /* This will change the text color for .card-title element */
 .card:hover .card-name {
