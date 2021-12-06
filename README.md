@@ -22,10 +22,21 @@ stylesheet.css
 pokemon_script.js
 
 # Verification Information
+The contents of this repository have been validated!
 
 ![image](https://user-images.githubusercontent.com/89462917/144878620-181dcac5-8740-496b-9fda-166c64c6deae.png)
 
 ![image](https://user-images.githubusercontent.com/89462917/144878684-73a18400-cd30-4af5-ab0a-27f079b6827d.png)
+
+# Helpful links
+
+Javascript Promises: https://www.youtube.com/watch?v=DHvZLI7Db8E&t=318s
+
+CSS tutorials: https://www.w3schools.com/css/
+
+HTML tutorial: https://www.w3schools.com/html/
+
+JavaScript tutorial: https://www.w3schools.com/js/
 
 
 # Other Information
