@@ -1,0 +1,23 @@
+# Super-Linter will check code to make sure that it conforms to style conventions and is valid code
+name: Super-Linter
+
+# Run super-linter when an item is pushed to the repo
+on: push
+
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: ubuntu-latest
+    
+    # On each push, the repo will be checked out and super-linter will run and will automatically check coding for errors
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Super-Linter
+        uses: github/super-linter@v3
+        env: 
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
+
+
